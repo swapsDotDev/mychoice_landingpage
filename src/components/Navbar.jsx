@@ -3,22 +3,10 @@ import React from 'react';
 const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-sm py-4 px-8 flex items-center justify-between">
-      {/* Logo */}
-      <div
-  className="absolute left-[8.39%] right-0 top-[16.13%] bottom-[41.94%] bg-black flex items-center justify-start"
->
-  <img
-    src="/mnt/data/ec1ad9d8-a4af-405d-8919-fdf02b78d5d4.png"
-    alt="My Choice Logo"
-    style={{
-      position: 'absolute',
-      width: '297px',
-      height: '93px',
-      left: '211px',
-      top: '29px',
-    }}
-  />
-</div>
+      <div className="flex items-center text-2xl font-bold">
+        <span className="text-black">My</span>
+        <span className="text-green-500">Choice</span>
+      </div>
 
       {/* Nav Links */}
       <ul className="hidden md:flex space-x-8 text-base font-medium text-gray-700">

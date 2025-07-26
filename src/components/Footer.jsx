@@ -48,7 +48,7 @@ const Footer = () => {
       </div>
 
       <div className="border-t border-white/20 pt-4 text-center text-white/80 text-sm">
-        Copyright © 2025 My Choice. All rights reserved. Designed By - Mplussoft
+        Copyright © 2025 My Choice. All rights reserved.
       </div>
     </footer>
   );

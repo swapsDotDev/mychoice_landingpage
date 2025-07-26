@@ -7,7 +7,7 @@ const Footer = () => {
       <div className="flex flex-col md:flex-row justify-between items-start md:items-start mb-8">
         {/* Left side */}
         <div className="md:w-1/2 mb-8 md:mb-0">
-          <img src="/path/to/logo.png" alt="MyChoice Logo" className="mb-4 w-48" />
+          <img src="/path/to/image.png" alt="MyChoice Logo" className="mb-4 w-48" />
           <p className="text-base md:text-lg text-white/90">
             Project X will act as a national register for individuals to willingly block online gambling sites
             including promotional/advertisement content from all New Zealand licensed online gambling operators
